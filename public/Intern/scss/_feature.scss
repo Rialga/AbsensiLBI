@@ -1,0 +1,103 @@
+/* Concept Area css
+============================================================================================ */
+.concept_area{
+	overflow: hidden;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	.left_img{
+		width: calc(50% - 80px);
+		overflow: hidden;
+	}
+	.right_text{
+		width: calc(50% + 80px);
+		background: #000;
+		margin-top: -50px;
+		margin-bottom: -50px;
+		.concept_text{
+			margin-left: 195px;
+			max-width: 389px;
+			height: 100%;
+			.concept_text_inner{
+				vertical-align: middle;
+				align-self: center;
+			}
+			h4{
+				color: #fff;
+				font-size: 36px;
+				text-transform: uppercase;
+				padding-right: 50px;
+				margin-bottom: 12px;
+			}
+			p{
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+/* End Concept Area css
+============================================================================================ */
+
+/* Feature Area css
+============================================================================================ */
+.feature_area{
+	overflow: hidden;
+	display: flex;
+	.left_feature{
+		float: left;
+		overflow: hidden;
+		width: calc(50% - 277px);
+		margin-left: 150px;
+		vertical-align: middle;
+		align-self: center;
+		padding-right: 15px;
+		.f_item{
+			max-width: 435px;
+			margin-bottom: 35px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			h4{
+				color: $dip;
+				text-transform: uppercase;
+				i{
+					font-weight: normal;
+					color: $baseColor;
+					padding-right: 8px;
+					&:before{
+						margin-left: 0px;
+					}
+				}
+			}
+			p{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.right_feature{
+		float: right;
+		overflow: hidden;
+		width: calc(50% + 277px);
+	}
+}
+/* End Feature Area css
+============================================================================================ */
+
+/* Fun Fact Area css
+============================================================================================ */
+.fun_fact_area{
+	.fun_fact_inner{
+		
+	}
+}
+.fun_fact_item{
+	h4{
+		font-size: 48px;
+		color: $dip;
+		margin-bottom: 0px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+}
+/* End Fun Fact Area css
+============================================================================================ */
